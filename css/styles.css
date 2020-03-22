@@ -81,6 +81,13 @@
         border-bottom-left-radius: 0px 50px;
         border-bottom-right-radius: 350px 66px;
     }
+
+    @media only screen and (max-width: 430px) {
+        #middle-container .box1 {
+            border-bottom-left-radius: 0px 50px;
+            border-bottom-right-radius: 700px 200px;
+        }
+    }
     
     #middle-container .outer-box2 {
         background-color: white;
@@ -114,6 +121,20 @@
         border-bottom-right-radius: 200px 350px;
     }
     
+    @media only screen and (max-width: 500px) {
+        #middle-container .box3 {
+            height: 75%;
+            border-bottom-left-radius: 220px 220px; /* 350px 150px */
+            border-bottom-right-radius: 200px 350px;
+        }
+    }
+
+    @media only screen and (max-width: 430px) {
+        #middle-container .box3 {
+            height: 65%;
+        }
+    }
+
     #lower-container {
         display: flex;
         padding-top: 25px;
